@@ -1,14 +1,15 @@
 def gether_data():
-    n1 = int(input("Digite o primeiro valor: "))
-    n2 = int(input("Digite o segundo valor: "))
+    n1 = input("Digite o primeiro valor: ")
+    n2 = input("Digite o segundo valor: ")
+    op = input("Digite a operação: ")
 
-    return n1, n2
+    return n1, n2, op
 
 
 def main():
-    n1,n2 = gether_data()
+    n1,n2,op = gether_data()
 
-    print(n1 ** n2)
+    print(eval(n1+op+n2))
 
     return None
 
