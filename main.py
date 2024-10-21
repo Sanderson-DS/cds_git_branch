@@ -4,11 +4,16 @@ def gether_data():
 
     return n1, n2
 
+def print_menssages(n1, n2):
+    print(f'Os valores somados de {n1} e {n2} é {n1+n2}')
+
+    return None
+
 
 def main():
     n1,n2 = gether_data()
 
-    print(n1 ** n2)
+    print(print_menssages(n1,n2))
 
     return None
 
