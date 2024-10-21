@@ -1,3 +1,5 @@
+import test
+
 def gether_data():
     n1 = input("Digite o primeiro valor: ")
     n2 = input("Digite o segundo valor: ")
